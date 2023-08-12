@@ -1,0 +1,58 @@
+.Formtitle {
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(3, 3, 90);
+    text-align: center;
+}
+.parent { 
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 500px;
+    height: auto;
+}
+.label{
+    text-align: center;
+    color: rgb(100, 100, 124);
+    font-weight: 700;
+}
+
+input{ 
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+    color:rgb(100, 100, 124); ;
+}
+select{ 
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(100, 100, 124);
+}
+textarea{ 
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 20px;
+}
+#button{ 
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+height: auto ;
+margin-bottom: 5px;
+margin-top: 10px;
+font-size: 20px;
+font-weight: 700;
+color: white;
+background-color: rgb(218, 106, 66);
+border-color: white;
+border-radius: 5%;
+}
+.Gender{
+    text-align: center;
+    color: black;
+    font-weight: 700;
+}

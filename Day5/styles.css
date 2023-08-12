@@ -1,0 +1,60 @@
+.box{
+    border-style: ridge;
+ }
+ .fifty{
+     width: 50%;
+ }
+ .hundred {
+     width: 100px;
+ }
+ .parent {
+     width: 135px;
+    border-style: solid;
+ }
+ .fiftyvw {
+     width: 50vw;
+ }
+ .fiftyvh {
+     height: 50vh;
+ }
+ .parent-em {
+    border-style: solid;
+    font-size: 30px;
+ }
+ .one-rem {
+     font-size: 1rem;
+     color: lightcoral;
+ }
+ .one-em {
+     font-size: 1em;
+ }
+ .two-rem {
+     font-size: 2rem;
+        color: lightcoral;
+ }
+ .two-em {
+     font-size: 2em;
+ }
+ body {
+   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+ }
+ .parenttwo {
+ background-color: blue;
+ padding: 5px;
+ position: relative;
+ }
+ .childone {
+   background-color: green;
+   position: absolute;
+   top: 0;
+   color: brown;
+}
+.childtwo {
+  background-color: red;
+ 
+}
+
+.childthree {
+    background-color: palevioletred;
+  
+}

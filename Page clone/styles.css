@@ -1,0 +1,13 @@
+#logo{
+    width: 10%;
+    height: 10%;
+}
+#image{
+    width: 50vw;
+    height: 50%;
+}
+div{
+  border: 1px solid black;
+  height: 20px;
+  background-color: black;
+}

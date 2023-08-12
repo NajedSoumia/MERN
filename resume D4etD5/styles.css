@@ -1,0 +1,8 @@
+.gridcontainer{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: blue;
+}
+.griditemone, .griditemtwo, .griditemthree{
+  background-color: blue;
+}

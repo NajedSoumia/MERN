@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge : Picasso Table/singup Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>1.Picasso Table</h2>
+  <table border="1px" style="border-collapse: collapse;">
+      <tr >
+          <td  width="100" height="50">1</td>
+          <td  width="100" height="50">2</td>
+          <td  width="200" height="50">3</td>
+      </tr>
+    <tr >
+        <td colspan="2" rowspan="2" width="100" height="50">4</td>
+        <td  width="200" height="50">5</td>
+    </tr>
+    <tr >
+        <td width="200" height="50">6</td>
+        
+    </tr>
+  </table>  
+
+  <p class="Formtitle">2.Sing up form</p>
+
+  <div class="parent">
+
+  <form action="/action_page.php" autocomplete="on">
+    <fieldset >
+        <legend>Personal Details</legend> 
+      <div class="label">
+        <label for="Salutation">Salutation</label><br>
+      </div>
+      <div class="input">
+        <select id="Salutation" name="Salutation" autofocus>
+          <option value="Mlle.">Mlle.</option>
+          <option value="Mme.">Mme.</option>
+          <option value="M.">M.</option>
+          <option value="--None--"selected>--None--</option>
+        </select>
+      </div>
+      <div class="label">
+        <label for="fname">First name:</label>
+      </div>
+      <div>
+        <input type="text" id="fname" name="fname">
+      </div>
+      <div class="label">
+       <label for="lname">Last name:</label>
+      </div>
+      <div>
+       <input type="text" id="lname" name="lname">
+      </div>
+      <div class="label">
+        <label for="lname">Last name:</label>
+      </div>
+      <div>
+        <input type="text" id="lname" name="lname">
+      </div>
+      <div class="label">
+        <label for="Gender">Gender:</label>
+      </div>
+      <div>
+        <input type="radio" id="Male" name="Gender" value="Male">
+        <label class="Gender" for="Male">Male</label>
+        <input type="radio" id="Female" name="Gender" value="Female">
+        <label class="Gender" for="Female">Female</label>
+      </div>
+      <div class="label">
+        <label for="Email">Email:</label>
+      </div>
+      <div>
+        <input type="email" id="Email" name="Email" placeholder="abcd@gmail.com">
+      </div>
+      <div class="label">
+        <label for="Date">Date of Birth:</label>
+      </div>
+      <div>
+        <input type="date" id="Date" name="Date">
+      </div>
+      <div class="label">
+        <label for="Address">Address:</label>
+      </div>
+      <div>
+        <textarea name="Address" rows="3" cols="30"></textarea>
+      </div>
+      <div>
+        <input id="button" type="submit" value="Submit">
+      </div>
+    </fieldset>
+  </form>
+</div>
+</body>
+</html>

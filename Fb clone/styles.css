@@ -1,0 +1,98 @@
+*{ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(231, 231, 231);
+}
+
+
+
+/* left */
+
+.left{  
+    width: 35%;
+    float: left;
+    margin-top: 350px;
+    margin-left: 20%;
+    font-weight: 100;
+    font-size: 25px;
+    
+}
+img{ 
+    width: 40%;
+}
+
+/* right */
+
+.right{ 
+  width: 25% ;
+  height: auto;
+  float: right;
+  margin-top: 250px;
+  margin-right: 20%;
+}
+input{ 
+    width: 90%;
+    height: 35px;
+    font-size: 18px;
+    margin: 10px 5% 10px 5%;
+    border: 1px solid rgba(128, 128, 128, 0.192);
+    border-radius: 3px;
+    
+}
+#Login{ 
+    width: 92%;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 5% 10px 5%;
+    border: 1px solid rgba(128, 128, 128, 0.192);
+    border-radius: 5px;
+  color: white;
+  background-color: #1778F2;
+}
+#New{ 
+    width: 50%;
+    height: 50px;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: 20px 25% 20px 25%;
+    border: 1px solid rgba(128, 128, 128, 0.192);
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(15, 170, 15);
+}
+a{ 
+    text-decoration: none;
+    color: #1778F2;
+    font-size: 15px;
+    margin: 20px 30% 20px 30%;
+}
+.p-right{ 
+ text-align: center;
+ font-size: 12px;
+ 
+}
+span{ 
+    font-weight: 700;
+}
+form{ 
+    border: 2px solid rgba(128, 128, 128, 0.226);
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgb(146, 145, 145);
+    
+}
+
+
+.bg, input{ 
+    background-color: white;
+  }
+  
+hr{ 
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 20px 0 20px 0;
+}
+

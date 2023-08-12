@@ -1,0 +1,21 @@
+/* rule 1 */
+.subsection {
+    color: blue;
+  }
+  
+  /* rule 2 */
+  .main .list {
+    color: red;
+  }
+  #parent {
+    color: red;
+  }
+  
+  .child {
+    color: blue;
+  }
+  .span {
+    background-color: aquamarine;
+    width: 500;
+
+  }
